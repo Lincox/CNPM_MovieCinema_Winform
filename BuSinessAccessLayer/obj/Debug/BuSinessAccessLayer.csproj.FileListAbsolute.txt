@@ -1,0 +1,7 @@
+D:\HOC_TAP\Project_WF\RAPPHIM\BuSinessAccessLayer\obj\Debug\BuSinessAccessLayer.csprojResolveAssemblyReference.cache
+D:\HOC_TAP\Project_WF\RAPPHIM\BuSinessAccessLayer\bin\Debug\BuSinessAccessLayer.dll
+D:\HOC_TAP\Project_WF\RAPPHIM\BuSinessAccessLayer\bin\Debug\BuSinessAccessLayer.pdb
+D:\HOC_TAP\Project_WF\RAPPHIM\BuSinessAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\HOC_TAP\Project_WF\RAPPHIM\BuSinessAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\HOC_TAP\Project_WF\RAPPHIM\BuSinessAccessLayer\obj\Debug\BuSinessAccessLayer.dll
+D:\HOC_TAP\Project_WF\RAPPHIM\BuSinessAccessLayer\obj\Debug\BuSinessAccessLayer.pdb

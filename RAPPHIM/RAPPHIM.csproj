@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2512870A-BC8F-4B17-84B4-FFBEB5C3E0C4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RAPPHIM</RootNamespace>
+    <AssemblyName>RAPPHIM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BuSinessAccessLayer">
+      <HintPath>..\BuSinessAccessLayer\bin\Debug\BuSinessAccessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="DataAccessLayer">
+      <HintPath>..\BuSinessAccessLayer\bin\Debug\DataAccessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.1">
+      <HintPath>C:\Users\luuhoangbac\Desktop\New folder\a\DevExpress.Data.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v16.1.Core">
+      <HintPath>C:\Users\luuhoangbac\Desktop\New folder\DevExpress.PivotGrid.v16.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v16.1.Core.resources">
+      <HintPath>C:\Users\luuhoangbac\Desktop\New folder\DevExpress.PivotGrid.v16.1.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v16.1.Core">
+      <HintPath>C:\Users\luuhoangbac\Desktop\New folder\a\DevExpress.Printing.v16.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v16.1.Core.resources">
+      <HintPath>C:\Users\luuhoangbac\Desktop\New folder\DevExpress.Printing.v16.1.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v16.1">
+      <HintPath>C:\Users\luuhoangbac\Desktop\New folder\a\DevExpress.Utils.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v16.1.resources">
+      <HintPath>C:\Users\luuhoangbac\Desktop\New folder\DevExpress.Utils.v16.1.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v16.1.UI">
+      <HintPath>C:\Users\luuhoangbac\Desktop\New folder\DevExpress.Utils.v16.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v16.1.UI.resources">
+      <HintPath>C:\Users\luuhoangbac\Desktop\New folder\DevExpress.Utils.v16.1.UI.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v16.1">
+      <HintPath>C:\Users\luuhoangbac\Desktop\New folder\a\DevExpress.XtraBars.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v16.1.Design">
+      <HintPath>C:\Users\luuhoangbac\Desktop\New folder\DevExpress.XtraBars.v16.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v16.1.resources">
+      <HintPath>C:\Users\luuhoangbac\Desktop\New folder\DevExpress.XtraBars.v16.1.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v16.1">
+      <HintPath>C:\Users\luuhoangbac\Desktop\New folder\DevExpress.XtraCharts.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v16.1.Design">
+      <HintPath>C:\Users\luuhoangbac\Desktop\New folder\DevExpress.XtraCharts.v16.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v16.1.Extensions">
+      <HintPath>C:\Users\luuhoangbac\Desktop\New folder\DevExpress.XtraCharts.v16.1.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v16.1">
+      <HintPath>C:\Users\luuhoangbac\Desktop\New folder\a\DevExpress.XtraEditors.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v16.1.Design">
+      <HintPath>C:\Users\luuhoangbac\Desktop\New folder\DevExpress.XtraEditors.v16.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v16.1.resources">
+      <HintPath>C:\Users\luuhoangbac\Desktop\New folder\DevExpress.XtraEditors.v16.1.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HoaDon.Designer.cs">
+      <DependentUpon>Form_HoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Ve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Ve.Designer.cs">
+      <DependentUpon>Form_Ve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTrailer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTrailer.Designer.cs">
+      <DependentUpon>frmTrailer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTrailer1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTrailer1.Designer.cs">
+      <DependentUpon>frmTrailer1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home_NV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home_NV.Designer.cs">
+      <DependentUpon>Home_NV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RibbonForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RibbonForm1.Designer.cs">
+      <DependentUpon>RibbonForm1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HoaDon.resx">
+      <DependentUpon>Form_HoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Ve.resx">
+      <DependentUpon>Form_Ve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTrailer.resx">
+      <DependentUpon>frmTrailer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTrailer1.resx">
+      <DependentUpon>frmTrailer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home_NV.resx">
+      <DependentUpon>Home_NV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RibbonForm1.resx">
+      <DependentUpon>RibbonForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20161203_135405.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bhd-star-vincom-le-van-viet-14591747934351.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1462756687_710x320.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie_track_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie_track_add1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie_track_next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie_track.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie_track_remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie_track_next1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ModernXP-20-Seach-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15328316_1291684954230439_1971369328_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15328316_1291684954230439_1971369328_n1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghe - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghe - Copy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghe - Copy2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghe - Copy3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghe - Copy4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BHD_Resize_Bcoin_710x320.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14c4b9c16db0f21432a8eaf5f2255a6a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hinhhoadon1111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hinhhoadon11111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hinhhoadon11112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_trong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_trong1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hinhhoadon11113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hinhhoadon11114.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hinhhoadon11115.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghe-rap-chieu-phim-cao-cap.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rap-BHD-star.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghe-rap-chieu-phim-cao-cap1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3698150_seat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yeongdeungpo-CGV-starium_03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yeongdeungpo-CGV-starium_162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yeongdeungpo-CGV-starium_1621.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_trong2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ModernXP-20-Seach-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghe - Copy5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghe - Copy6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Magenta-Seat-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Magenta-Seat-icon %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yeongdeungpo-CGV-starium_1622.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue-Seat-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Magenta-Seat-icon %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-view-calendar-upcoming-days-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-view-calendar-upcoming-days-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yeongdeungpo-CGV-starium_1623.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20161203_1354051.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15203376_1146672115424746_8907222370906455802_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15328316_1291684954230439_1971369328_n2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15328316_1291684954230439_1971369328_n3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15328316_1291684954230439_1971369328_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_trong3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bhd-star-khuyen-mai-ngay-nha-giao-viet-nam-giam-gia-4-ve-xem-phim-con-240k.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15328316_1291684954230439_1971369328_n1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoDai.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie_track1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoDai1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie_track2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Vuong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Vuong1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-Dialog-Logout-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows-Close-Program-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15328316_1291684954230439_1971369328_n2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Vuong2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,8 @@
+G:\Learning\4th year\1st semester\Kiểm thử phần mềm\Week15\MOVIECINEMA\BuSinessAccessLayer\obj\Release\BuSinessAccessLayer.csprojResolveAssemblyReference.cache
+G:\Learning\4th year\1st semester\Kiểm thử phần mềm\Week15\MOVIECINEMA\BuSinessAccessLayer\obj\Release\BuSinessAccessLayer.csproj.CoreCompileInputs.cache
+G:\Learning\4th year\1st semester\Kiểm thử phần mềm\Week15\MOVIECINEMA\BuSinessAccessLayer\bin\Release\BuSinessAccessLayer.dll
+G:\Learning\4th year\1st semester\Kiểm thử phần mềm\Week15\MOVIECINEMA\BuSinessAccessLayer\bin\Release\BuSinessAccessLayer.pdb
+G:\Learning\4th year\1st semester\Kiểm thử phần mềm\Week15\MOVIECINEMA\BuSinessAccessLayer\bin\Release\DataAccessLayer.dll
+G:\Learning\4th year\1st semester\Kiểm thử phần mềm\Week15\MOVIECINEMA\BuSinessAccessLayer\bin\Release\DataAccessLayer.pdb
+G:\Learning\4th year\1st semester\Kiểm thử phần mềm\Week15\MOVIECINEMA\BuSinessAccessLayer\obj\Release\BuSinessAccessLayer.dll
+G:\Learning\4th year\1st semester\Kiểm thử phần mềm\Week15\MOVIECINEMA\BuSinessAccessLayer\obj\Release\BuSinessAccessLayer.pdb

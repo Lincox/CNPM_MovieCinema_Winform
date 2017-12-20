@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Yeongdeungpo-CGV-starium_1622" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yeongdeungpo-CGV-starium_1622.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yeongdeungpo-CGV-starium_162" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yeongdeungpo-CGV-starium_162.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BHD_Resize_Bcoin_710x320" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BHD_Resize_Bcoin_710x320.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yeongdeungpo-CGV-starium_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yeongdeungpo-CGV-starium_03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Actions-view-calendar-upcoming-days-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions-view-calendar-upcoming-days-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ModernXP-20-Seach-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ModernXP-20-Seach-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows-Close-Program-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows-Close-Program-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_trong2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_trong2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hinhhoadon1111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hinhhoadon1111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghe - Copy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghe - Copy1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo_Vuong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo_Vuong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghe - Copy3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghe - Copy3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15328316_1291684954230439_1971369328_n5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15328316_1291684954230439_1971369328_n1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bhd-star-vincom-le-van-viet-14591747934351" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bhd-star-vincom-le-van-viet-14591747934351.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hinhhoadon11112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hinhhoadon11112.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo_Vuong1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo_Vuong1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghe - Copy5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghe - Copy5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hinhhoadon11111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hinhhoadon11111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="movie_track2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\movie_track2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="movie_track_remove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\movie_track_remove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghe-rap-chieu-phim-cao-cap1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghe-rap-chieu-phim-cao-cap1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15328316_1291684954230439_1971369328_n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15328316_1291684954230439_1971369328_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghe-rap-chieu-phim-cao-cap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghe-rap-chieu-phim-cao-cap.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_trong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_trong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15328316_1291684954230439_1971369328_n6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15328316_1291684954230439_1971369328_n2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15328316_1291684954230439_1971369328_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15328316_1291684954230439_1971369328_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="movie_track_next1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\movie_track_next1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_trong1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_trong1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15328316_1291684954230439_1971369328_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15328316_1291684954230439_1971369328_n2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15328316_1291684954230439_1971369328_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15328316_1291684954230439_1971369328_n1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue-Seat-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue-Seat-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hinhhoadon11114" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hinhhoadon11114.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghe - Copy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghe - Copy2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Apps-Dialog-Logout-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Apps-Dialog-Logout-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Magenta-Seat-icon (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Magenta-Seat-icon (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Actions-view-calendar-upcoming-days-icon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Actions-view-calendar-upcoming-days-icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ok-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ok-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20161203_1354051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20161203_1354051.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogoDai1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LogoDai1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yeongdeungpo-CGV-starium_1623" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yeongdeungpo-CGV-starium_1623.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="movie_track_next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\movie_track_next.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogoDai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LogoDai.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Magenta-Seat-icon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Magenta-Seat-icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1462756687_710x320" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1462756687_710x320.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rap-BHD-star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rap-BHD-star.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20161203_135405" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20161203_135405.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Excel-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Excel-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghe - Copy6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghe - Copy6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghe - Copy4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghe - Copy4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3698150_seat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3698150_seat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14c4b9c16db0f21432a8eaf5f2255a6a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14c4b9c16db0f21432a8eaf5f2255a6a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hinhhoadon11113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hinhhoadon11113.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="movie_track1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\movie_track1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_trong3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_trong3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="movie_track_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\movie_track_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15203376_1146672115424746_8907222370906455802_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15203376_1146672115424746_8907222370906455802_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="movie_track" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\movie_track.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hinhhoadon11115" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hinhhoadon11115.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15328316_1291684954230439_1971369328_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15328316_1291684954230439_1971369328_n3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yeongdeungpo-CGV-starium_1621" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yeongdeungpo-CGV-starium_1621.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Magenta-Seat-icon (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Magenta-Seat-icon (1)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ModernXP-20-Seach-icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ModernXP-20-Seach-icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="movie_track_add1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\movie_track_add1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghe - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghe - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bhd-star-khuyen-mai-ngay-nha-giao-viet-nam-giam-gia-4-ve-xem-phim-con-240k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bhd-star-khuyen-mai-ngay-nha-giao-viet-nam-giam-gia-4-ve-xem-phim-con-240k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo_Vuong2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo_Vuong2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

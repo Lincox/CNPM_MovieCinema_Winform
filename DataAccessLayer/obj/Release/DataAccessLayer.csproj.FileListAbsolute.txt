@@ -1,0 +1,5 @@
+G:\Learning\4th year\1st semester\Kiểm thử phần mềm\Week15\MOVIECINEMA\DataAccessLayer\bin\Release\DataAccessLayer.dll
+G:\Learning\4th year\1st semester\Kiểm thử phần mềm\Week15\MOVIECINEMA\DataAccessLayer\bin\Release\DataAccessLayer.pdb
+G:\Learning\4th year\1st semester\Kiểm thử phần mềm\Week15\MOVIECINEMA\DataAccessLayer\obj\Release\DataAccessLayer.csproj.CoreCompileInputs.cache
+G:\Learning\4th year\1st semester\Kiểm thử phần mềm\Week15\MOVIECINEMA\DataAccessLayer\obj\Release\DataAccessLayer.dll
+G:\Learning\4th year\1st semester\Kiểm thử phần mềm\Week15\MOVIECINEMA\DataAccessLayer\obj\Release\DataAccessLayer.pdb
